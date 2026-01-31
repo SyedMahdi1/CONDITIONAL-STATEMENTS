@@ -1,0 +1,117 @@
+                # Basics of CONDITIONAL STATEMENTS in PYTHON
+                                # 1.
+
+num=int(input("Enter A Number:\t"))
+if(num>0):
+    print("The Number is POSITIVE")
+elif(num==0):
+    print("The Number is ZERO")
+else:
+    print("The Number is NEGATIVE")
+print("BYE")
+
+                            # 2.
+
+num1=int(input("Enter A Number:\t"))
+if(num1==100):
+    print("EQUAL TO HUNDRED")
+elif(num1>100):
+    print("GREATER THAN HUNDRED")
+else:
+     print("LESS THAN HUNDRED")
+
+                    # <------------------>
+
+                # MAKING people age limit to drive
+
+print("<---According To Your Age We Will Find Whether You Can DRIVE Or NOT--->")
+a=float(input("Enter Your Age: "))
+if(a>=18):
+    if(a<=60):
+        print("<--U Can Drive-->")
+    elif(a<=100):
+        print("<--I Think U Should not Drive-->")
+    else:
+        print("<--I Think U are Dead-->")
+else:
+    print("<--U Can't Drive-->")
+
+                    # <------------------>
+
+        # Making A Game With The Help Of CONDITIONAL STATEMENTS
+
+print("\t\t <---WELCOME TO THE GAME--->")
+a=("\t\tThink OF Your Favourite Fruit\n")
+
+print(a)
+b=(input("Enter The Letters In That Fruit In Numbers: "))
+c=input("Enter The First Letter OF That Fruit In Capital: ")
+if(int(b)==5 and c=='M'):
+    print("Ur Favourite Fruit Is Mango")
+elif(int(b)==5 and c=='A'):
+    print("Ur Favourite Fruit Is Apple")
+elif(int(b)==6 and c=='B'):
+    print("Ur Favourite Fruit Is Banana")
+
+elif(int(b)==5 and c=='G'):
+    if(c=='G'):
+        d=input("Enter The Last Letter OF That Fruit In Small Case: ")
+        if(d=='e'):
+            print("Ur Favourite Fruit Is Grape")
+        if(d=='a'):
+            print("Ur Favourite Fruit Is Guava")
+elif(int(b)==6 and c=='O'):
+    print("Ur Favourite Fruit Is Orange")
+elif(int(b)==5 and c=='P'):
+    print("Ur Favourite Fruit Is Peach")
+elif(int(b)==4 and c=='K'):
+    print("Ur Favourite Fruit Is Kiwi")
+elif(int(b)==6 and c=='C'):
+    print("Ur Favourite Fruit Is Cherry")
+elif(int(b)==6 and c=='P'):
+    print("Ur Favourite Fruit Is Papaya")
+elif(int(b)==4 and c=='L'):
+    print("Ur Favourite Fruit Is Lime")
+elif(int(b)==4 and c=='P'):
+    print("Ur Favourite Fruit Is Plum")
+elif(int(b)==10 and c=='C'):
+    print("Ur Favourite Fruit Is Cantaloupe")
+elif(int(b)==6 and c=='M'):
+    print("Ur Favourite Fruit Is Melons")
+elif(int(b)==5 and c=='W'):
+    print("Ur Favourite Fruit Is Watermelon")
+elif(int(b)==9 and c=='P'):
+    print("Ur Favourite Fruit Is Pineapple")
+elif(int(b)==5 and c=='L'):
+    print("Ur Favourite Fruit Is Lemon")
+elif(int(b)==10 and c=='S'):
+    print("Ur Favourite Fruit Is Strawberry")
+elif(int(b)==7 and c=='A'):
+    print("Ur Favourite Fruit Is Apricot")
+elif(int(b)==8 and c=='A'):
+    print("Ur Favourite Fruit Is Avocado")
+elif(int(b)==6 and c=='T'):
+    print("Ur Favourite Fruit Is Tomato")
+else:
+    print("Fruit Not Found")
+
+#                   # <------------------>
+
+           # Greeting Sir Or Ma'am According To Time
+
+time=input("Enter The Whether It Is 'Morning', 'Noon' or 'Evening':\t ")
+teacher= input("Enter The Teacher Whether It Is Sir Or Ma'am:\t ")
+if(time=='Morning' and teacher=='Sir'):
+    print("Good Morning Sir")
+elif(time=='Morning' and teacher=="Ma'am'"):
+    print("Good Morning Ma'am")
+elif(time=='Noon' and teacher=='Sir'):
+    print("Good Afternoon Sir")
+elif(time=='Noon' and teacher=="Ma'am'"):
+    print("Good Afternoon Ma'am")
+elif(time=='Evening' and teacher=='Sir'):
+    print("Good Evening Sir")
+elif(time=='Evening' and teacher=="Ma'am'"):
+    print("Good Evening Ma'am")
+
+                    # <------------------>
